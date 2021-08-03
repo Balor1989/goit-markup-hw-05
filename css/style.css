@@ -396,8 +396,10 @@ p {
   flex-wrap: wrap;
 }
 .portfolio-project {
+  position: relative;
   margin-right: 30px;
   margin-bottom: 30px;
+  cursor: pointer;
 
   outline: solid 1px #eeeeee;
 }
@@ -426,6 +428,29 @@ p {
 }
 .portfolio-textbox {
   padding: 20px 24px;
+}
+.portfolio-item-text {
+  position: absolute;
+  width: 100%;
+  height: 294px;
+  top: 0;
+  left: 0;
+  background-color: rgba(33, 150, 243, 0.9);
+}
+.portfolio-item-text.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.portfolio-project:hover .is-hidden {
+  opacity: 1;
+}
+.item-text {
+  padding: 63px 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: var(--hero-text-color);
 }
 .portfolio-text {
   margin: 0;
