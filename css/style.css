@@ -642,7 +642,7 @@ a:hover .client-icon {
   height: 44px;
   border-radius: 50%;
 }
-.background {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -650,7 +650,7 @@ a:hover .client-icon {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.background.is-hidden {
+.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }

@@ -52,7 +52,7 @@
         <!-- Hero section -->
         <section class="hero-section">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="hero-button">Заказать услугу</button>
+            <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
         </section>
         <!-- Thesis section -->
         <section class="thesis-section">
@@ -389,13 +389,12 @@
             </div>
         </div>
     </footer>
-    <div class="background is-hidden">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-
+            <button data-modal-close>Закрыть</button>
         </div>
     </div>
-    <script>
-    </script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
