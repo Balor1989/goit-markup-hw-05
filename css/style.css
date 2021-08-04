@@ -618,6 +618,11 @@ a:hover .client-icon {
   font-size: 14px;
   line-height: 1.1;
   text-decoration: none;
+  transition: color 250ms var(--cubic-bezier);
+}
+.footer-list:hover,
+.footer-list:focus {
+  color: var(--accent-color);
 }
 .studio-footerlogo {
   color: var(--footer-text-color);
