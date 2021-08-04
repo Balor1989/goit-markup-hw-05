@@ -716,3 +716,30 @@ a:hover .client-icon {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+.modal-close {
+  position: absolute;
+  padding: 0;
+  display: flex;
+  right: 10px;
+  top: 10px;
+  border-radius: 4px;
+  border-color: var(--button-bgc-color);
+  background-color: var(--button-bgc-color);
+  cursor: pointer;
+  transition: all 250ms var(--cubic-bezier);
+}
+.modal-close-icon {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  fill: var(--button-color);
+  transition: fill 250ms var(--cubic-bezier);
+}
+.modal-close:hover .modal-close-icon,
+.modal-close:focus .modal-close-icon {
+  fill: var(--accent-button);
+  background-color: var(--accent-bgc-button);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  border: solid 1px #2196f3;
+}
