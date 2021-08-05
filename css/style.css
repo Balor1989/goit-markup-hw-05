@@ -739,9 +739,5 @@ a:hover .client-icon {
 }
 .modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon {
-  fill: #ffffff;
-}
-.modal-close:hover,
-.modal-close:focus {
-  background-color: var(--accent-color);
+  fill: var(--accent-color);
 }
