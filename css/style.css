@@ -101,6 +101,7 @@ p {
   text-decoration: none;
   letter-spacing: 0.02em;
   transition: color 250ms var(--cubic-bezier);
+  padding: 32px 0;
 }
 .site-nav .list:hover,
 .site-nav .list:focus {
